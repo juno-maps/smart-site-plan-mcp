@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.smartsiteplan/open-data",
+  "title": "Smart Site Plan Map Data",
+  "description": "Public GIS map data for any US place, checked and opened on a live map, via Ask anything.",
+  "version": "1.2.0",
+  "websiteUrl": "https://smartsiteplan.com/ai",
+  "icons": [
+    { "src": "https://smartsiteplan.com/icons/icon-192.png", "mimeType": "image/png", "sizes": ["192x192"] },
+    { "src": "https://smartsiteplan.com/icons/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.smartsiteplan.com/mcp"
+    }
+  ]
+}

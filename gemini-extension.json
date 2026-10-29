@@ -1,0 +1,11 @@
+{
+  "name": "smart-site-plan",
+  "version": "1.2.0",
+  "description": "Public GIS map data (utilities, parcels, zoning, flood zones) for any US place, opened on a live map.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "smart-site-plan": {
+      "httpUrl": "https://api.smartsiteplan.com/mcp"
+    }
+  }
+}
